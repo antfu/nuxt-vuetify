@@ -1,0 +1,9 @@
+{
+  "home": {
+    "title": "nuxt-vuetify"
+  },
+  "nav": {
+    "home": "Home",
+    "app": "App"
+  }
+}

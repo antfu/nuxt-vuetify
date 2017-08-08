@@ -23,7 +23,10 @@ module.exports = {
     }
   },
   loading: { color: '#3B8070' },
-  plugins: ['~plugins/vuetify'],
+  plugins: [
+    '~plugins/vuetify',
+    '~plugins/i18n'
+  ],
   css: [
     { src: '~assets/style/app.styl', lang: 'styl' },
     { src: '~assets/style/material-icons/material-icons.css' },

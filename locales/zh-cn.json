@@ -1,0 +1,9 @@
+{
+  "home": {
+    "title": "nuxt-vuetify"
+  },
+  "nav": {
+    "home": "首页",
+    "app": "应用"
+  }
+}
