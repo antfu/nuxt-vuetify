@@ -1,9 +1,22 @@
 <template lang='pug'>
-v-layout(column, justify-center, align-center)
-  v-flex(xs12, sm8, md6)
+v-layout(row, wrap)
+  v-flex(xs12)
     v-card
       v-card-text
-        p Welcome !
+        dl
+          dt {{ $t('home.title') }}
+          dd {{ $t('home.introduction') }}
       v-card-actions
-        v-btn(primary, flat, router, nuxt) Continue
+        v-btn(primary, flat, router, nuxt) {{ $t('buttons.continue') }}
+        v-btn(flat, dark) Listen now
 </template>
+
+<script>
+export default {
+  head() {
+    return {
+      title: this.$t('home.title')
+    }
+  }
+}
+</script>

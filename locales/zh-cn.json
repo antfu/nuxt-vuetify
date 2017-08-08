@@ -1,9 +1,13 @@
 {
   "home": {
-    "title": "nuxt-vuetify"
+    "title": "Nuxt.js + Vuetify 模板",
+    "introduction": "欢迎!"
   },
   "nav": {
     "home": "首页",
     "app": "应用"
+  },
+  "buttons": {
+    "continue": "继续"
   }
 }

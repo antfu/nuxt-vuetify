@@ -2,6 +2,6 @@
 
 my nuxt-vuetify boilerplate
 
-> Nuxt.js + Vuetify
+> Nuxt.js + Vuetify + i18n
 
 > pug + stylus + material-icons + mdi

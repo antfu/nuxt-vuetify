@@ -10,7 +10,13 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
+  mode: 'spa',
   build: {
+    vendor: [
+      'vue-i18n',
+      'vuetify',
+      'vuex-persistedstate',
+    ],
     extend(config, ctx) {
       if (ctx.dev && ctx.isClient) {
         config.module.rules.push({

@@ -1,9 +1,13 @@
 {
   "home": {
-    "title": "nuxt-vuetify"
+    "title": "Nuxt.js + Vuetify",
+    "introduction": "Hello Nuxt.js!"
   },
   "nav": {
     "home": "Home",
     "app": "App"
+  },
+  "buttons":{
+    "continue": "continue"
   }
 }

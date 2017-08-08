@@ -1,3 +1,5 @@
+import createPersistedState from 'vuex-persistedstate'
+
 export const state = () => ({
   current: 'en-us',
   locales: {
@@ -13,3 +15,12 @@ export const mutations = {
     }
   }
 }
+
+const plugins = []
+
+if (process.BROWSER_BUILD) {
+  // FIXME: Not working
+  plugins.push(createPersistedState({ key: 'locale' }))
+}
+
+export { plugins }
